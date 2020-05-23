@@ -11,10 +11,10 @@ const totalFibra = 12;
 
 formulario.addEventListener('submit', function(e) {
     e.preventDefault();
-    b.innerText="";
-    f.innerText="";
+    f.innerText=" ";
     numeroFibra = fibraIngresada.value;
-    if (numeroFibra > 0 && numeroFibra < 289) {
+
+if (numeroFibra > 0 && numeroFibra < 289) {
         
     
     if(numeroFibra % totalFibra == 0){
@@ -34,6 +34,7 @@ formulario.addEventListener('submit', function(e) {
     f.innerText = `La fibra es: ${arrayFibras[colorFibraMetodo1]}`
 
 }else{
+
     b.innerText= 'El número ingresado tiene que estar entre 1 y 288';
 
 }
