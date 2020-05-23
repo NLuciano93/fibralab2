@@ -11,6 +11,8 @@ const totalFibra = 12;
 
 formulario.addEventListener('submit', function(e) {
     e.preventDefault();
+    b.innerText="";
+    f.innerText="";
     numeroFibra = fibraIngresada.value;
     if (numeroFibra > 0 && numeroFibra < 289) {
         
